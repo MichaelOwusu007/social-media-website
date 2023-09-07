@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li class="notification"><img src="images/notification.png"></li>
+                <li class="notification" id="message"><img src="images/inbox.png"></li>
+                <li class="notification"><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" id="icontoggle">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+        <!--Settings-menu-->
+
+        <div id="displaysettings" class="setting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Michael Owusu</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Help and Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help and Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Help and Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Help and Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!------profile page--------->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile-2.png" class="pd-image">
+                    <div>
+                        <h3>
+                            Micahel Owusu
+                        </h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"> <img src="images/add-friends.png" alt="">Friends</button>
+                <button type="button"> <img src="images/message.png" alt="">Message</button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+
+            </div>
+        </div>
+        <div class="write-post-container" id="profile-postit">
+            <div class="user-profile" id="postit">
+                <img src="images/profile-pic.png" alt="">
+                <div>
+                    <p>Michael Owusu</p>
+                    <small>Public</small>
+                </div>
+            </div>
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="Whats on your mind Micheal?" id="cursor"></textarea>
+                <div class="add-post-link">
+                    <a href="#"><img src="images/live-video.png" alt="">Live/Video</a>
+                    <a href="#"><img src="images/photo.png" alt="">Live/Video</a>
+                    <a href="#"><img src="images/feeling.png" alt="">Live/Video</a>
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Michael Owusu</p>
+                        <span>January 24 2023, 13:40 pm </span>
+                    </div>
+                </div>
+                <img src="images/more.png" id="viewmore" alt="">
+            </div>
+            <p class="post-text">Subcribe <span>Mickerl_Codes</span> Youtube channel to watch more videos on website
+                development and UI design. <a href="#">AfriTechInTwi</a><a href="#">#Youtubechannel</a></p>
+            <img src="images/feed-image-1.png" class="post-img">
+        
+            <div class="post-icons">
+                <div class="activity-icons">
+                    <div><img src="images/like.png">120</div>
+                    <div><img src="images/comments.png">28</div>
+                    <div><img src="images/share.png">68</div>
+                </div>
+                <div class="post-profile-icons">
+                    <img src="images/profile-pic.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Michael Owusu</p>
+                        <span>June 24 2023, 13:40 pm </span>
+                    </div>
+                </div>
+                <img src="images/more.png" id="viewmore" alt="">
+            </div>
+            <p class="post-text">Subcribe <span>Mickerl_Codes</span> Youtube channel to watch more videos on website
+                development and UI design. <a href="#">AfriTechInTwi</a><a href="#">#Youtubechannel</a></p>
+            <img src="images/feed-image-2.png" class="post-img">
+        
+            <div class="post-icons">
+                <div class="activity-icons">
+                    <div><img src="images/like.png">118</div>
+                    <div><img src="images/comments.png">30</div>
+                    <div><img src="images/share.png">75</div>
+                </div>
+                <div class="post-profile-icons">
+                    <img src="images/profile-pic.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Michael Owusu</p>
+                        <span>July 24 2023, 1:40 pm </span>
+                    </div>
+                </div>
+                <img src="images/more.png" id="viewmore" alt="">
+            </div>
+            <p class="post-text">Subcribe <span>@AfriTech In Twi</span> Youtube channel to watch more videos on website
+                development and UI design. <a href="#">AfriTechInTwi</a><a href="#">#Youtubechannel</a></p>
+            <img src="images/feed-image-3.png" class="post-img">
+        
+            <div class="post-icons">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">18</div>
+                    <div><img src="images/share.png">68</div>
+                </div>
+                <div class="post-profile-icons">
+                    <img src="images/profile-pic.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="footer">
+        <p>Copyright 2023-Mickerl_codes Youtube Channel</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+    
